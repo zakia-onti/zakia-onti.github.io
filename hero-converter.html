@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hero Converter | ZRO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+    <nav>
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="hero-converter.html" class="active">Hero Converter</a></li>
+            <li><a href="min-max-calculator.html">Min Max Calc.</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+  
+    <main>
+        
+        <div class="page-content">
+            <h1>Hero Converter</h1>
+            <div class="text-box">
+                <form class="converter-inputs" id="heroForm">
+                   <label for="">Convert</label>: <input type="number" name="unit_value" step="0.0000001">
+                   <select name="from_to" id="">
+                       <option value="0">lb to kg</option>
+                       <option value="1">kg to lb</option>
+                   </select>
+                   <button>Go</button>
+                   <strong>Result: <span></span></strong>
+                </form>
+            </div>
+            
+        </div>
+        <footer>
+            <hr>
+            <p>Made by Zakia Rahman Onti</p>
+        </footer>
+    </main>
+    <script src="js/hero-converter.js"></script>
+</body>
+</html>
